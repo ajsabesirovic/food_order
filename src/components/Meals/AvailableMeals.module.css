@@ -15,7 +15,12 @@
  text-align: center;
  color: white;
 }
-@keyframes meals-appear {
+.mealsError {
+  text-align: center;
+  color: red;
+ }
+ 
+ @keyframes meals-appear {
   from {
     opacity: 0;
     transform: translateY(3rem);
