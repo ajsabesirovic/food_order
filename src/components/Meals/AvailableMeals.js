@@ -28,6 +28,7 @@ const AvailableMeals = () => {
         });
       }
       setMeals(loadedMeals);
+
       setIsLoading(false);
     };
     fetchMeals().catch((error) => {
